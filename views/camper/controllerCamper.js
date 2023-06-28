@@ -11,6 +11,7 @@ myformCamper.addEventListener("submit", async (e) => {
     let configCamper = { 
         method: "POST",
         headers: myHeadersCamper,
+        
         body: JSON.stringify(dataCamper)
     };
     let resCamper = await (await fetch("../../controllers/campers/insertCampers.php", configCamper)).text(); 
