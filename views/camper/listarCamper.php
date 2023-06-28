@@ -70,7 +70,6 @@
                             $ciudad=$objCampers->loadDataByIdCiudad($camper['idReg']);
                             $dep=$objCampers->loadDataDepById($ciudad[0]['idDep']);
                             $pais=$objCampers->loadDataPaisById($dep[0]['idPais']);
-                            echo var_dump($pais)
                             ?>
                             <td id='<?php echo "{$camper['idReg']}" ?>' data-idDep='<?php echo "{$ciudad[0]['idDep']}" ?>' data-idPais='<?php echo "{$pais[0]['idPais']}" ?>'><?php echo "{$ciudad[0]['nombreReg']}" ?></td>
                             <td>
