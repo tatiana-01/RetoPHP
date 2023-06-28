@@ -6,14 +6,9 @@
             "mysql" => Array(
                     'driver' => 'mysql',
                     'host' => 'localhost',
-                    //'host' => '172.16.48.230',
-                    //'username' => 'root', 
-                    'username' => 'root',
-                    //'username' => 'apolo'
-                    'database' => 'sistemacampus',
-                    'password' => '',
-                    //'password' => 'campus2023', 
-                    //'password' => '@pol0Adm1n$', 
+                    'username' => 'campus',
+                    'database' => 'campuslands',
+                    'password' => 'campus2023', 
                     'charset' => 'utf8mb4',
                     'collation' => 'utf8mb4_unicode_ci',
                     'flags' => [
