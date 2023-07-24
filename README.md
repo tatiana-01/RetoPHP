@@ -1,4 +1,5 @@
 # RetoPHP
+Desarrollo de modulo de administracion de campers en la empresa campusland usando PHP, MYSQL y composer.
 
 Tatiana Alejandra Paredes Calderon
 Apolo Team 1
